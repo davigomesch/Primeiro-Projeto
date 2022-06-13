@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+a{
+    text-decoration: none;
+    
+}
+
+#cabeçalho{
+
+    background-color: gray;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./src/treadmill-gym-loft-ko40byqogljiyz5i.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    filter:opacity(85%);
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 60px;
+    
+}
+
+.logotipo{
+    height: 10vh;
+    padding-right: 2%;
+    
+
+}
+
+ul{
+    display: flex;
+
+
+}
+
+li{
+    color: #821EBE;
+    list-style-type: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding-left: 2rem;
+    margin-top: 5%;
+
+}
+
+
+
+
+
+section{
+    margin: 5px;
+}
+
+.itensform{
+
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 5%;
+    margin: 5%;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    font-weight: 700;
+    
+
+}
+
+input{
+    
+    padding: 5px;
+    width: 300px;
+    border: 1px solid #821EBE;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 1%;
+    margin-top: 1%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+textarea{
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    outline: unset;
+    border: 1px solid #821EBE;
+    padding-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    height: 30px;
+    width: 300px;
+    
+}
+
+.titulocontato{
+    font-size: 4rem;
+    color: white;
+    margin-left: 30%;
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline 3px #821EBE;
+    
+    
+}
+

@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 1rem black;
+    filter:opacity(95%);
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 60px;
+}
+
+
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(105, 105, 105);
+    font-weight: 200;
+}
+
+main{
+    
+    height: 100vh;
+    background-image: url(./src/22-3005594080971647790.jpeg);
+    
+}
+
+
+
+
+
+.logotipo{
+    height: 10vh;
+    padding-right: 2%;
+    
+
+}
+
+ul{
+    display: flex;
+
+
+}
+
+li{
+    color: #821EBE;
+    list-style-type: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding-left: 2rem;
+    margin-top: 5%;
+
+}
+
+.titulohistoria{
+    font-size: 3rem;
+}
+
+.textohistoria{
+    font-size: 1.8rem;
+
+}
+
+
+.historiatext{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: rgba(15, 15, 15, 0.75);
+    width: 750px;
+    float: right;
+    padding: 2%;
+    
+    
+    
+}
