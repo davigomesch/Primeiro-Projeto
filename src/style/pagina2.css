@@ -1,10 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
 
 a{
     text-decoration: none;
-    
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
 }
 
 *{
@@ -14,28 +21,25 @@ a{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.3rem;
-    background-image: url(../imagens/anastase-maragos-4dlhin0ghOk-unsplash.jpg);
+    background-image: url(../imagens/unidadesback.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    opacity: 85%;
     
     
-    
-    
-}
 
+}
 header{
-    
     display: flex;
     justify-content: space-between;
-    background-color: rgb(15, 15, 15);
+    background-color: #fff;
     filter:opacity(100%);
     align-items: center;
     padding-right: 80px;
     padding-left: 60px;
-    
+    color: orangered;
+    height: 100px;
 }
 
 .logotipo{
@@ -48,7 +52,7 @@ ul{
 }
 
 li{
-    color: #821EBE;
+    color:black;
     list-style-type: none;
     font-size: 1.7rem;
     cursor: pointer;
@@ -69,6 +73,7 @@ li{
     height: 300px;
     width: 500px;;
     border-radius: 20px;
+    
 }
 
 .imagemcopa{
@@ -84,23 +89,25 @@ li{
 }
 
 p{
-    color: white;
-    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+
     
 }
 
 h1, h2, h3 , h4{
-    text-decoration: underline 3px #821EBE;
-    font-size: 2.5rem;
-}
-
-
-   
-
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.8rem;
+    color: orangered;
     
-
+}
+ 
 section{
-    display: flex;
     align-items: center;
     display: grid;
     grid-template-areas: 
@@ -108,7 +115,7 @@ section{
     "item3 item4";
     justify-content: space-around;
     margin-top: 30px;
-    grid-gap: 20px;
+    grid-gap: 40px;
 }
 
 .item1{
@@ -128,7 +135,14 @@ section{
     grid-area: "item4";
 }
 
+
+
 footer{
-    margin-top: 20px;
+    margin-top: 10%;
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #fff;
 }
 

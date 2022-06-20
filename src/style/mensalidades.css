@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    filter:opacity(100%);
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 60px;
+    color: orangered;
+    height: 100px;
+
+}
+
+.logotipo{
+    height: 10vh;
+    padding-right: 2%;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    list-style-type: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding-left: 2rem;
+    justify-content: center;
+}
+
+.card{
+    width: 25%;
+    height: 750px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5%;
+    background-color: #fff;
+    
+    
+    
+}
+
+.cardImg{
+    width: 100%;
+    height: 400px;
+    margin-top: -0.3%;
+    
+}
+
+
+h1{
+    font-size: 2rem;
+    text-decoration: 2px orangered;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    
+}
+
+.cardList{
+    width: 300px;
+    height: 500px;
+    list-style-type: none;
+    font-size: 1.75rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+span{
+    color: red;
+    font-size: 2.1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    background-image: url(../imagens/mensalidadesfundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+}
+
+footer{
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 1.5rem;
+    color:black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+

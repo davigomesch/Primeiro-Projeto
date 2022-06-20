@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
 
 a{
     text-decoration: none;
-    
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
 }
 
 #cabeçalho{
@@ -15,28 +21,28 @@ a{
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
-    background-image: url(../imagens/treadmill-gym-loft-ko40byqogljiyz5i.jpg);
+   background-image: url(../imagens/pexels-lukas-669584.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    font-family: 'Raleway', sans-serif;
-    
-    
+    font-family: 'Raleway', sans-serif 
 }
 
 header{
-    
     display: flex;
     justify-content: space-between;
-    background-color: rgb(15, 15, 15);
-    filter:opacity(85%);
+    background-color: #fff;
+    filter:opacity(100%);
     align-items: center;
     padding-right: 80px;
     padding-left: 60px;
-    
+    color: orangered;
+    height: 100px;
 }
+
 
 .logotipo{
     height: 10vh;
@@ -52,7 +58,7 @@ ul{
 }
 
 li{
-    color: #821EBE;
+    color: rgb(0, 0, 0);
     list-style-type: none;
     font-size: 1.7rem;
     cursor: pointer;
@@ -63,26 +69,24 @@ li{
 
 
 
-
-
 section{
     margin: 5px;
 }
 
 .itensform{
-
     display: flex;
-    color: white;
+    color: rgb(0, 0, 0);
     flex-direction: column;
     align-content: center;
     align-items: center;
     padding: 5%;
     margin: 5%;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 50px;
-    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 1px;
+    font-weight: bold;
     
+    border-radius: 20px;
 
 }
 
@@ -90,7 +94,7 @@ input{
     
     padding: 5px;
     width: 300px;
-    border: 1px solid #821EBE;
+    border: 1px solid orangered;
     border-radius: 20px;
     cursor: pointer;
     margin: 1%;
@@ -104,7 +108,7 @@ textarea{
     border-radius: 20px;
     padding: 10px;
     outline: unset;
-    border: 1px solid #821EBE;
+    border: 1px solid orangered;
     padding-top: 5px;
     font-family: 'Raleway', sans-serif;
     height: 30px;
@@ -114,12 +118,23 @@ textarea{
 
 .titulocontato{
     font-size: 4rem;
-    color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: underline 3px orangered;
     margin-left: 30%;
     margin-top: 2%;
     font-family: 'Montserrat', sans-serif;
-    text-decoration: underline 3px #821EBE;
+    font-weight: bold;
     
     
 }
+
+footer{
+    margin-top: 10%;
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #fff;
+}
+
 
